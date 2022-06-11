@@ -24,3 +24,19 @@
 
 # for num in range(1,1001):
 #     print(num)
+
+# import random
+# num = random.randint(1,100)
+# print(num)
+
+# import datetime
+
+# a = datetime.date.today()
+# print(a)1
+
+# import random
+# list = input().split(" ")
+# count = len(list)
+# attack = random.randrange(count)
+
+# print("{}に会心の一撃! {}を倒した".format(list[attack], list[attack]))
