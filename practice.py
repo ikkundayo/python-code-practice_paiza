@@ -181,3 +181,29 @@
 #         am = "0" + am
 
 #     print(ah + ":" + am)
+
+# count, size = input().split()
+# size = int(size) * 2
+# list = []
+
+# for i in range(int(count)):
+#     a = input().split()
+#     list.append(a)
+
+# for (i, j) in enumerate(list):
+#     if int(size) <= int(j[0]) and int(size) <= int(j[1]) and int(size) <= int(j[2]):
+#         print(i + 1)
+
+# count = int(input())
+# key = input()
+# list = []
+
+# for i in range (count):
+#     word = input()
+#     list.append(word)
+
+# for j in list:
+#     if key in j:
+#       print(j)
+#     else:
+#       print("None")
