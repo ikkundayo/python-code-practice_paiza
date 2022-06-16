@@ -207,3 +207,52 @@
 #       print(j)
 #     else:
 #       print("None")
+
+# def multiply(x, y):
+#     return x * y
+
+# for num in range(1, 10):
+#     print(str(multiply(1, num)) + ", ", end="")
+#     print(str(multiply(2, num)) + ", ", end="")
+#     print(str(multiply(3, num)) + ", ", end="")
+#     print(str(multiply(4, num)) + ", ", end="")
+#     print(str(multiply(5, num)) + ", ", end="")
+#     print(str(multiply(6, num)) + ", ", end="")
+#     print(str(multiply(7, num)) + ", ", end="")
+#     print(str(multiply(8, num)) + ", ", end="")
+#     print(str(multiply(9, num)) + ", ", end="")
+#     if num < 9:
+#         print()
+
+# def multiply(x, y):
+#     return x * y
+
+# for step in range(1, 10):
+#     for num in range(1, 10):
+#         print(multiply(step, num), end="")
+#         if num < 9:
+#             print(", ", end="")
+#     print()
+
+# a = 10
+# def aaa(b):
+#     a = 9
+#     print(a)
+# print(a)
+# aaa(a)
+
+# def test(*happys):
+#     for happy in happys:
+#       print(happy)
+
+# test("a", "b")
+
+# class Greeting:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def say_hello(self):
+#         print("hello " + self.name)
+
+# paiza = Greeting("paiza")
+# paiza.say_hello()
