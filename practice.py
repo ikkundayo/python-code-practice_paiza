@@ -256,3 +256,95 @@
 
 # paiza = Greeting("paiza")
 # paiza.say_hello()
+
+# class Greeting:
+#     def __init__(self, target):
+#         self.msg = "hello"
+#         self.target = target
+
+#     def say_hello(self):
+#         print(self.msg + " " + self.target)
+
+# class Hello(Greeting):
+#     # ここにオーバライドするメソッドを記述する
+#     def say_hello(self):
+#         print(self.msg + " " + self.target)
+
+
+# player = Hello("python")
+# player.say_hello()
+
+# class Greeting:
+#     @classmethod
+#     def say_hello(cls):
+#         print("hello paiza")
+
+
+# Greeting.say_hello()
+
+# a, b = map(int, input().split())
+# print(b - a)
+
+# n = int(input())
+# a = [int(x) for x in input().split()]
+# b = [int(x) for x in input().split()]
+
+# for i in range(n):
+#     if i < n - 1:
+#         print(b[i] - a[i], end=" ")
+#     else:
+#         print(b[i] - a[i])
+
+# a = int(input())
+# b = list(map(int, input().split()))
+# c = int(input())
+
+# for i in range(a):
+#     if b[i] == c:
+#         print(i + 1)
+
+# m, n = map(int, input().split())
+# a = []
+# for i in range(m):
+#     a.append([int(t) for t in input().split()])
+# x = [int(t) for t in input().split()]
+
+# pos_of_x = -1
+# for i in range(m):
+#     is_x = True
+#     for j in range(n):
+#         if a[i][j] != x[j]:
+#             is_x = False
+
+#     if is_x:
+#         pos_of_x = i + 1
+#         break
+
+# print(pos_of_x)
+
+# num = input().split("-")
+# list = []
+# for i in num:
+#     for j in i:
+#         if int(j) == 0:
+#             a = 12 * 2
+#         elif int(j) == 1:
+#             a = 3 * 2
+#         elif int(j) == 2:
+#             a = 4 * 2
+#         elif int(j) == 3:
+#             a = 5 * 2
+#         elif int(j) == 4:
+#             a = 6 * 2
+#         elif int(j) == 5:
+#             a = 7 * 2
+#         elif int(j) == 6:
+#             a = 8 * 2
+#         elif int(j) == 7:
+#             a = 9 * 2
+#         elif int(j) == 8:
+#             a = 10 * 2
+#         elif int(j) == 9:
+#             a = 11 * 2
+#         list.append(a)
+# print(sum(list))
