@@ -348,3 +348,38 @@
 #             a = 11 * 2
 #         list.append(a)
 # print(sum(list))
+
+# list = []
+# for i in range(1, 11):
+#     block = "■" * i
+#     list.append(block)
+
+# list.reverse()
+# for j in list:
+#     print(j)
+
+# User = Struct.new(:name, :age)
+# tom = User.new("Tom", 30)
+# puts tom.age
+
+# count = int(input())
+# list = []
+# pass_list = []
+# for i in range(count):
+#     a = input().split()
+#     list.append(a)
+ 
+# for a in list:
+#     if a[0] == "l":
+#         l_score = int(a[4]) + int(a[5])
+#         total_score = int(a[1]) + int(a[2]) + int(a[3]) + int(a[4]) + int(a[5])
+#         if l_score >= 160 and total_score >= 350:
+#             pass_count = "genius"
+#             pass_list.append(pass_count)
+#     else:
+#         s_score = int(a[2]) + int(a[3])
+#         total_score = int(a[1]) + int(a[2]) + int(a[3]) + int(a[4]) + int(a[5])
+#         if s_score >= 160 and total_score >= 350:
+#             pass_count = "genius"
+#             pass_list.append(pass_count)
+# print(len(pass_list))
