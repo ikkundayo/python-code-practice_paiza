@@ -383,3 +383,154 @@
 #             pass_count = "genius"
 #             pass_list.append(pass_count)
 # print(len(pass_list))
+
+# d, s = map(float, input().split())
+
+# if d / s >= 0.1:
+#     print("yes")
+# else:
+#     print("no")
+
+# a, b = input().split()
+# c = int(a) * 100000
+# d = c // int(b)
+# if d >= 10000:
+#     print("yes")
+# else:
+#     print("no")
+
+# n = int(input())
+
+# print(int(180 * (n - 2) / n))
+
+# a, b = map(int, input().split())
+
+# print(abs(a - b))
+
+# a = input().split(",")
+# print(a[0] + "!!")
+
+# a = input()
+# b = len(a)
+# list = []
+
+# print(a)
+# for i in range(b):
+#     c = "^"
+#     list.append(c)
+# for j in list:
+#     print(j, end="")
+
+# s = input()
+
+# print(s)
+# print("".join(["^"] * len(s)))
+
+# a = input().split(" + ")
+# print(int(a[0]) + int(a[1]))
+
+# a = ["6B", "5B", "4B", "3B", "2B", "B", "HB", "F", "H", "2H", "3H", "4H", "5H", "6H", "7H", "8H", "9H"]
+# b = int(input())
+# print(a[b - 1])
+
+# jp = float(input())
+# print(jp - 18, end=" ")
+# print(jp - 18.5)
+
+# a = "##########"
+# b = ".........."
+# c = int(input())
+
+# for i in range(c):
+#     print(a)
+#     print(b)
+
+# a = input()
+# for i in a:
+#     print(i)
+
+# a = input()
+# print("Mt. " + a)
+
+# a = int(input())
+# b = a * 100 // 140
+# print(str(b) + "%")
+
+# n = int(input())
+
+# print(f"{int(n/140*100)}%")
+
+# a = int(input())
+# for i in range(0, 10):
+#     b = a + i
+#     if b < 10:
+#         print(b)
+#     else:
+#         print(b - 10)
+
+# a, b = map(int, input().split())
+
+# if b - a > 0:
+#     print("+", end="")
+
+# print(b - a)
+
+# a = [
+#     "C",
+#     "E",
+#     "F",
+#     "G",
+#     "H",
+#     "I",
+#     "J",
+#     "K",
+#     "L",
+#     "M",
+#     "N",
+#     "S",
+#     "T",
+#     "U",
+#     "V",
+#     "W",
+#     "X",
+#     "Y",
+#     "Z",
+# ]
+
+# n = input()
+
+# if n in a:
+#     print(0)
+# elif n == "B":
+#     print(2)
+# else:
+#     print(1)
+
+# a = int(input())
+
+# if a < 30:
+#     print("quiet")
+# elif a < 50:
+#     print("normal")
+# elif a < 70:
+#     print("noisy")
+# else:
+#     print("very noisy")
+
+# a = input()
+
+# if a == "Friday":
+#     print("TGIF")
+# else:
+#     print(f"Still {a}")
+
+# a = int(input())
+# if a >= 20 and a <= 15000:
+#     print("yes")
+# elif a >= 15000 and a <= 20000:
+#     print("not sure")
+# else:
+#     print("no")
+
+# a = int(input())
+# print(a // 10)
