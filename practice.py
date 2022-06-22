@@ -534,3 +534,41 @@
 
 # a = int(input())
 # print(a // 10)
+
+# n, m, l = map(int, input().split())
+# d = [[int(x) for x in input().split()] for i in range(n)]
+# p = [[int(x) for x in input().split()] for i in range(l)]
+
+# for i in range(1, l):
+#     diff = [p[i][j] - p[i - 1][j] for j in range(m)]
+
+#     order = -1
+#     for j in range(n):
+#         same = True
+#         for k in range(m):
+#             if diff[k] != d[j][k]:
+#                 same = False
+#         if same:
+#             order = j + 1
+#             break
+
+#     print(order)
+
+# print("1 1")
+
+# print("8 1 3")
+
+# for i in range(10):
+#     print(i + 1, end=" ")
+
+# for i in range(10):
+#     if i < 9:
+#         print(i + 1, end=" ")
+#     else:
+#         print(i + 1)
+
+# for i in range(1000):
+#     if i < 999:
+#         print(i + 1, end=" ")
+#     else:
+#         print(i + 1)
