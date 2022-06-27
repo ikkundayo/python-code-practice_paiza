@@ -572,3 +572,64 @@
 #         print(i + 1, end=" ")
 #     else:
 #         print(i + 1)
+
+# s = input()
+# t = input()
+
+# print(s)
+# print(t)
+
+
+# list = []
+# for i in range(10):
+#     a = input()
+#     list.append(a)
+# print(" ".join(list))
+
+
+# a = input().split()
+# for i in a:
+#     print(i)
+
+# a = int(input())
+# for i in range(a):
+#     print(i + 1)
+
+
+# a, b = map(int, input().split())
+# print(f"{a},{b}")
+
+# S = input().split()
+# print(",".join(S))
+
+# a = []
+# for i in range(3):
+#     a.append(input())
+# print("|".join(a))
+
+# a = [input() for i in range(3)]
+# print(a)
+
+# a = input().split()
+# for b in a:
+#     print(b, end=",")
+
+# a = input().split()
+# print(",".join(a))
+
+# list = []
+# for i in range(10):
+#     a = input()
+#     list.append(a)
+# print(" | ".join(list))
+
+# N = input()
+# x = len(N) % 3
+
+# for i in range(len(N)):
+#     if (i - x) % 3 == 0 and i != 0:
+#         print(",", end="")
+
+#     print(N[i], end="")
+
+# print()
