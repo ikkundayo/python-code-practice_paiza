@@ -633,3 +633,72 @@
 #     print(N[i], end="")
 
 # print()
+
+# for i in range(100):
+#     if i % 15 == 0:
+#         print("fizzbuzz")
+#     elif i % 3 == 0:
+#         print("fizz")
+#     elif i % 5 == 0:
+#         print("buzz")
+#     else:
+#         print(i)
+
+# a, b = map(int, input().split())
+# print(a - b, a * b) 
+
+# A = 437326
+# B = 9085
+# print(A // B, A % B)
+
+# a, b, c = map(int, input().split())
+# print(a * a, b * b + c * c)
+
+# A = 202
+# B = 134
+# C = 107
+
+# print(((A + B) * C)**2)
+
+# a, b, c, d = map(int, input().split())
+# print(((a + b) * c)**2 % d)
+
+# n = 0
+# n = n + 3286
+# n = n * 4736
+# n = n % 12312
+# print(n)
+
+# a, b, c = map(int, input().split())
+# n = 0
+# n += a
+# n *= b
+# n %= c
+# print(n)
+
+# n = 10000
+# n = n // 361
+# n = n % 28
+# print(n)
+
+# a, b = map(int, input().split())
+
+# n = 10000
+# n = n // a
+# n = n % b
+# print(n)
+
+# a, b = map(int, input().split())
+# print(a * b)
+
+# a, b = map(int, input().split())
+# print(a or b)
+
+# a = int(input())
+# if a == 1:
+#     print(0)
+# else:
+#     print(1)
+
+# a = int(input())
+# print(int(not a))
